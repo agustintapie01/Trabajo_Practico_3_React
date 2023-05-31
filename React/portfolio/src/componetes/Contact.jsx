@@ -1,4 +1,6 @@
 import { useState } from "react"
+import Table from 'react-bootstrap/Table';
+import Button from 'react-bootstrap/Button';
 
 
 const Contact = () => {
@@ -59,12 +61,12 @@ const Contact = () => {
                                 <input type="text" onChange={(e)=> setTelefono(e.target.value)} required placeholder="Ingrese su numero"/><br />
                                 <label htmlFor="descr" className="label_form">Descripcion</label>
                                 <input type="text"onChange={(e)=> setDescripcion(e.target.value)}required /> <br />
-                                <button className="buton_form" type="submit">Enviar</button>
+                                <Button variant="dark" type="submit">Enviar</Button>
                         </form> 
                         <br />
                         <br />
 
-                        <table >
+                        <Table striped bordered hover variant="dark">
                                   <thead>
                                           <tr>
                                                 <th>Id</th>
@@ -86,7 +88,7 @@ const Contact = () => {
                                               <td>{pedido.descripcion}</td>
                                               <td>{pedido.telefono}</td>
                                               <td>
-                                                  <button onClick={()=>deleteConsulta(pedido.id)}>Borrar</button>
+                                                  <Button variant="danger" onClick={()=>deleteConsulta(pedido.id)}>Eliminar</Button>
                                               </td>
 
 
@@ -94,7 +96,7 @@ const Contact = () => {
                                             
                                             )}
                                   </tbody>
-                        </table>
+                        </Table>
                          
                   </div>  
 
