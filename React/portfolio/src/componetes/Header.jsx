@@ -8,8 +8,6 @@ export const Header = () => {
         
              <header id='header'>
                     <img id='foto_header' src={agu} alt="" /> 
-              </header>  
-
               <div className='nav'>
                   <nav className="navbar navbar-light bg-light">
                       <Link to="/" className='boton_contacto'>Inicio</Link>
@@ -18,6 +16,8 @@ export const Header = () => {
                   </nav>
 
               </div>
+              </header>  
+
 
 
             

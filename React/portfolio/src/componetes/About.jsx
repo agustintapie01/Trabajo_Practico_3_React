@@ -1,5 +1,8 @@
 
 import { useState } from "react"
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+
 
  
 const About = () => {
@@ -16,15 +19,19 @@ const About = () => {
   return (
     <>
         <main className="main_about">
-                
-                <h1>Perritos graciosos</h1>
-
-                <div className="contenedor_about">
-                    <img className="img_about2" src={`/${num}.jpg`} alt="" />
-                </div>
-                    <button className="boton_about" onClick={handleclick}>Cambiar imagen</button>
+             
+            <Card style={{ width: '20rem' }} className="card_">
+                  <Card.Img variant="top" src={`/${num}.jpg`} />
+                  <Card.Body>
+                    <Card.Title>Perritos graciosos</Card.Title>
+                    <Card.Text>
                     
-        </main>    
+                    </Card.Text>
+                    <Button onClick={handleclick} variant="primary">Cambiar</Button>
+                  </Card.Body>
+              </Card>   
+        </main> 
+
     
     </>
   )
