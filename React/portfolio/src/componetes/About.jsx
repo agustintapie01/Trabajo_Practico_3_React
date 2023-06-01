@@ -1,29 +1,29 @@
-import agu from "../assets/agu.jpg"
+
 import { useState } from "react"
-import autito2 from "../assets/autito2.jpg"
+
  
 const About = () => {
 
   
-  const [num, setNum] = useState(0);
+  const [num, setNum] = useState(1);
 
   const handleclick = () => {
     // setCurrentimage((prevImage)=>(prevImage+ 1) % images.length);
-    setNum(num+1)
+   num > 2 ? setNum(1) :  setNum(num + 1)
   }
 
 
   return (
     <>
         <main className="main_about">
-                <img src={agu} alt="" className="img_about"/>
-                <h1>Mis trabajos</h1>
+                
+                <h1>Perritos graciosos</h1>
 
                 <div className="contenedor_about">
-                    <h2>{num}</h2>
-                    <img src={autito2} alt="imagen cambiante" />
-                    <button onClick={handleclick}>Cambiar imagen</button>
+                    <img className="img_about2" src={`/${num}.jpg`} alt="" />
                 </div>
+                    <button className="boton_about" onClick={handleclick}>Cambiar imagen</button>
+                    
         </main>    
     
     </>

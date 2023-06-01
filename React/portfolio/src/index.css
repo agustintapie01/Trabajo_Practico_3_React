@@ -115,7 +115,7 @@ footer{
     background-color: rgb(219, 245, 236);
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 .nav2{
@@ -151,12 +151,23 @@ body{
 }
 
 .main_about{
-    background-color: brown;
+    background-color: white;
 }
 
 .contenedor_about{
     display: flex;
     justify-content: center;
+}
+
+
+.boton_about{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.img_about1{
+    width: 100%;
 }
 
     
