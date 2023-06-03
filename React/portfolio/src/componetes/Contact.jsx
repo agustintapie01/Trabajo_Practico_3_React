@@ -8,7 +8,6 @@ const Contact = () => {
 
   const consultas = [
     {id: 1, nombre: "Agustin", apellido: "Tapie", email: "tapieagus@gmail.com", telefono: "3814432280", descripcion: "Quiero realizar una app"},
-    {id: 2, nombre: "Matias",apellido: "Bordenave", email: "matiasbordenave@gmail.com", telefono: "3814016226", descripcion: "ig de la gloria"}
   ]
   
   // const handlerChange = (e) => {
