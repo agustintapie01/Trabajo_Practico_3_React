@@ -11,7 +11,6 @@ const About = () => {
   const [num, setNum] = useState(1);
 
   const handleclick = () => {
-    // setCurrentimage((prevImage)=>(prevImage+ 1) % images.length);
    num > 2 ? setNum(1) :  setNum(num + 1)
   }
 

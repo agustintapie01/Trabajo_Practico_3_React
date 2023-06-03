@@ -2,33 +2,52 @@
     margin: 0;
     padding: 0;
 }
-#header{
-    background-color: rgb(54, 27, 27);
-    width: 100%;
 
-}
 
 body{
-    background-color: rgb(255, 255, 255);
+    
+    font-family: sans-serif;
    
 }
 
-#foto_header{
-    width: 13%;
-    display: block;
-    margin: auto;
 
+
+header{
+    display: flex;
+    height: 100px;
+    background-color: coral;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#h1_header{
-    
-    font-size: 36px;
-    text-align: center;
-    padding: 30px;
-    
-
+Link{
+    text-decoration: none;
 }
 
+.link{
+    font-weight: 600;
+    padding-right: 10px;
+    color: black;
+}
+
+.link:hover{
+    color: white;
+}
+
+.nombre_portfolio{
+    margin-top: 30px;
+}
+
+.Logo_header{
+    display: flex;
+}
+
+.img_logo{
+    height: 89px;
+    margin-right: 13px;
+    border-radius: 200px;
+}
 
 #p_main{
     font-size: 20px;
