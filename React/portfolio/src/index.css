@@ -135,7 +135,7 @@ body{
     background-color: rgb(255, 255, 255);
     margin: 0;
     position: relative;
-    padding-bottom: 5em;
+    padding-bottom: 10em;
     min-height: 100vh;
 }
 
@@ -159,7 +159,7 @@ body{
 }
 
 .form2{
-    border: 8px black solid;
+   
     text-align: center;
 }
 
