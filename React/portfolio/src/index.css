@@ -172,21 +172,65 @@ body{
     width: 16%;
 }
 
-.main_about{
+/* .main_about{
     background-color: white;
-}
+} */
 
 
 
 
-.boton_about{
-    text-align: center;
-    font-size: 30px;
-}
 
 
 .img_about1{
+    
+   
+   margin-top: 45px;
+   width: 17%;
+   border-radius: 200px;
+}
+
+.h3_about{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.contenedor_derecha{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 20%;
+   
+}
+
+.img_about{
+
     width: 100%;
 }
+
+.contenedor_about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja1{
+    width: 18%;
+}
+
+.contenedor_caja{
+    display: flex;
+   margin-left: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.caja2{
+    width: 23%;
+    margin-left: 20px;
+}
+
+
+
+
 
     

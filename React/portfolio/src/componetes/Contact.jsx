@@ -26,7 +26,7 @@ const Contact = () => {
     setPedidos([...pedidos, {id, nombre, apellido, email, descripcion, telefono}]) /*el ""..."" es el operador spread sirve para copiar el array, hace una copia, en este caso copia el array de pedidos*/
     alert("Nos comunicaremos contigo a la brevedad")
     setId(id + 1)
-    e.target.reset
+    e.target.reset()
   }
   
   const [nombre, setNombre] = useState ("")
